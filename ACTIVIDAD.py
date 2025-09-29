@@ -1,3 +1,5 @@
+#ACTIVIDADDEGESTION
+#==========================
 import tkinter as tk
 from tkinter import messagebox, simpledialog
 
@@ -20,7 +22,7 @@ class Registro:
 class GestorRegistros:
     def __init__(self, root):
         self.root = root
-        self.root.title("📋 Gestor de Registros")
+        self.root.title("Gestor de Registros")
         self.root.geometry("500x400")
         self.root.config(bg="#2C3E50")  # fondo oscuro elegante
 
